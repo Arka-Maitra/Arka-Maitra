@@ -1,36 +1,29 @@
-/* Set height of body and the document to 100% to enable "full page tabs" */
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial;
+body {background-color: yellow;}
+
+.tabs {
+  border: 1px solid#blue;
 }
 
-/* Style tab links */
-.tablink {
-  background-color: #555;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
+.tabs__button {
+  display: block;
+  padding: 10px;
   cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
 }
 
-.tablink:hover {
-  background-color: #777;
+.tabs__button:active {
+  background: #dddd;
 }
 
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-  color: white;
+.tabs__button--active {
+  font-weight: bold;
+  border-right: 2px solid#blue;
+}
+ 
+ .tabs__content {
+  padding: 15px;
   display: none;
-  padding: 100px 20px;
-  height: 100%;
-}
+ }
 
-#Home {background-color: red;}
-#News {background-color: green;}
-#Contact {background-color: blue;}
-#About {background-color: orange;}
+ .tabs__content--active {
+  display: block;
+ }
