@@ -1,29 +1,36 @@
-body {background-color: yellow;}
-
-.tabs {
-	border: 1px solid#blue;
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
 }
 
-.tabs__button {
-	display: block;
-	padding: 10px;
-	cursor: pointer;
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
 }
 
-.tabs__button:active {
-	background: #dddd;
+.tablink:hover {
+  background-color: #777;
 }
 
-.tabs__button--active {
-	font-weight: bold;
-	border-right: 2px solid#blue;
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
 }
- 
- .tabs__content {
- 	padding: 15px;
- 	display: none;
- }
 
- .tabs__content--active {
- 	display: block;
- } 
+#Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}
