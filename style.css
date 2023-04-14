@@ -11,5 +11,9 @@ body {background-color: yellow;}
 
 .tabs__button:active {
 	background: #dddd;
-	
+}
+
+.tabs__button--active {
+	font-weight: bold;
+	border-right: 2px solid#blue;
 }
