@@ -1,6 +1,7 @@
 body {background-color: yellow;}
+
 img{
-border:5px solid blue; margin-left: 600px; margin-right: 600px;
+border:5px solid blue; margin-right: 600px;
 }
 .tabs {
   border: 1px solid#blue;
