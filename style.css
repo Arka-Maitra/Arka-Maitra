@@ -7,8 +7,7 @@ body {background-color: yellow;}
 	display: flex;
 }
 
-.tabs__sidebar{
-	width: 125px;
-	flex-shrink: 0;
-	background: #ccc;
+.tabs__button {
+	display: block;
+	padding: 10px;
 }
