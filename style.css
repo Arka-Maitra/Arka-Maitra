@@ -17,3 +17,9 @@ body {background-color: yellow;}
 	font-weight: bold;
 	border-right: 2px solid#blue;
 }
+ 
+ .tabs__content {
+ 	padding: 15px;
+ 	font-size: 0.8rem;
+ 	display: none;
+ }
