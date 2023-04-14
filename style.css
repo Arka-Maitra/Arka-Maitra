@@ -2,10 +2,6 @@ img{
 border:5px solid blue; margin-left: 600px; margin-right: 600px;
 }
 body {background-color: yellow;}
-.tabs {
-	border: 1px solid blue;
-	display: flex;
-}
 
 .tabs__button {
 	display: block;
