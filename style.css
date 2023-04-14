@@ -6,4 +6,10 @@ body {background-color: yellow;}
 .tabs__button {
 	display: block;
 	padding: 10px;
+	cursor: pointer;
+}
+
+.tabs__button:active {
+	background: #dddd;
+	
 }
