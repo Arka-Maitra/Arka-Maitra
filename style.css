@@ -23,3 +23,7 @@ body {background-color: yellow;}
  	font-size: 0.8rem;
  	display: none;
  }
+
+ .tabs__content--active {
+ 	display: block;
+ } 
