@@ -1,5 +1,5 @@
 # Colonial Internalization: Perspectives 
-## Arka-Maitra.github.io
+## [Arka-Maitra.github.io](https://arka-maitra.github.io/)
 ## Repository Information
 # Advanced Topics in Digital Humanities Course Asssignments
 # Reading Responses:
